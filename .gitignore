@@ -1,0 +1,29 @@
+# Node.js 패키지 폴더
+node_modules/
+
+# 환경변수 파일
+.env
+.env.example
+.env.local
+.env.development.local
+.env.production.local
+
+# 업로드된 실제 파일은 Git에 올리지 않음
+uploads/*
+!uploads/.gitkeep
+
+# 로그 파일
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 운영체제 파일
+.DS_Store
+Thumbs.db
+
+# IDE 설정 파일
+.vscode/
+.idea/
