@@ -30,7 +30,7 @@ docker run -d \
   -p 3000:3000 \
   -e PORT=3000 \
   -e DB_HOST="$DB_HOST" \
-  -e DB_PORT="${DB_PORT:-3306}" \
+  -e DB_PORT="${DB_PORT:-3307}" \
   -e DB_USER="$DB_USER" \
   -e DB_PASSWORD="$DB_PASSWORD" \
   -e DB_NAME="$DB_NAME" \
